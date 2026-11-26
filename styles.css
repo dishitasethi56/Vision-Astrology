@@ -157,3 +157,30 @@
   .site-footer .footer-brand{width:210px!important;height:72px!important}
   .site-footer .footer-brand img{width:210px!important;height:210px!important;top:-69px!important}
 }
+
+
+/* Footer logo uses the same proven crop as the visible header logo. */
+.site-footer .footer-brand{
+  position:relative!important;
+  display:inline-block!important;
+  width:220px!important;
+  height:76px!important;
+  overflow:hidden!important;
+  vertical-align:middle!important;
+}
+.site-footer .footer-brand img{
+  position:absolute!important;
+  display:block!important;
+  width:339px!important;
+  height:339px!important;
+  max-width:none!important;
+  left:-26px!important;
+  top:-123px!important;
+  object-fit:fill!important;
+  opacity:1!important;
+  visibility:visible!important;
+}
+@media(max-width:700px){
+  .site-footer .footer-brand{width:210px!important;height:72px!important}
+  .site-footer .footer-brand img{width:323px!important;height:323px!important;left:-25px!important;top:-117px!important}
+}
