@@ -67,3 +67,21 @@
 .hero-art .art-inner,.about-image { position:relative!important; }
 .hero-art .art-inner .artwork-photo,.about-image .artwork-photo { display:block!important;opacity:1!important;visibility:visible!important; }
 @media(max-width:700px){.site-header .brand,.site-header .brand img{width:178px!important;height:62px!important}}
+
+
+/* Layout refinement: larger brand mark and peacock artwork used only as section backgrounds. */
+.site-header{height:108px}
+.site-header .brand{width:280px!important;height:95px!important}
+.site-header .brand img{width:280px!important;height:95px!important;max-width:none!important;object-fit:contain!important;object-position:left center!important}
+.hero{grid-template-columns:1fr;min-height:650px;background-image:linear-gradient(90deg,rgba(2,20,29,.88),rgba(3,44,48,.62)),url("./peacock-art.jpg");background-size:cover;background-position:center 43%}
+.hero-copy{max-width:680px}
+.hero-art,.about-visual{display:none!important}
+.about{grid-template-columns:1fr;background-image:linear-gradient(110deg,rgba(3,37,42,.82),rgba(3,37,42,.72)),url("./peacock-art.jpg");background-size:cover;background-position:center 48%}
+@media(max-width:700px){
+ .site-header{height:84px}
+ .site-header .brand{width:210px!important;height:72px!important}
+ .site-header .brand img{width:210px!important;height:72px!important}
+ .main-nav{top:83px}
+ .hero{min-height:600px;background-position:55% center}
+ .about{grid-template-columns:1fr}
+}
