@@ -235,13 +235,13 @@
 }
 
 
-/* Slightly enlarge the updated VISION logo in the header. */
-.site-header{height:132px!important}
-.site-header .brand{width:390px!important;max-height:145px!important}
-.site-header .brand img{max-height:145px!important}
+/* Make the VISION header logo visibly larger on desktop and mobile. */
+.site-header{height:145px!important}
+.site-header .brand{width:450px!important;height:auto!important;max-height:145px!important;flex:0 0 450px!important}
+.site-header .brand img{width:100%!important;height:auto!important;max-width:none!important;max-height:145px!important}
 @media(max-width:700px){
-  .site-header{height:102px!important}
-  .site-header .brand{width:275px!important;max-height:102px!important}
-  .site-header .brand img{max-height:102px!important}
-  .main-nav{top:101px!important}
+  .site-header{height:112px!important}
+  .site-header .brand{width:310px!important;height:auto!important;max-height:112px!important;flex:0 0 310px!important}
+  .site-header .brand img{width:100%!important;height:auto!important;max-width:none!important;max-height:112px!important}
+  .main-nav{top:111px!important}
 }
