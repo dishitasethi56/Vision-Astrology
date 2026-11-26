@@ -1,7 +1,7 @@
 // VISION website settings
 // Add the astrologer's real email address below before publishing.
 // Optional: add a WhatsApp number in international format, digits only (e.g. 919876543210).
-const VISION_EMAIL = "YOUR_EMAIL@example.com";
+const VISION_EMAIL = "deeptisethi83@gmail.com";
 const VISION_WHATSAPP = "";
 
 document.getElementById("year").textContent = new Date().getFullYear();
