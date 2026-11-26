@@ -129,3 +129,31 @@
 .site-footer .footer-brand{display:inline-flex!important;align-items:center;justify-content:center;width:220px!important;height:76px!important;overflow:visible!important;vertical-align:middle}
 .site-footer .footer-brand img{display:block!important;width:100%!important;height:100%!important;max-width:100%;object-fit:contain!important;object-position:center!important;filter:none!important}
 @media(max-width:700px){.site-footer .footer-brand{width:210px!important;height:72px!important}}
+
+
+/* Footer logo: crop the square transparent canvas so the VISION wordmark fills its original footer footprint. */
+.site-footer .footer-brand{
+  position:relative!important;
+  display:inline-block!important;
+  width:220px!important;
+  height:76px!important;
+  overflow:hidden!important;
+  vertical-align:middle!important;
+}
+.site-footer .footer-brand img{
+  position:absolute!important;
+  display:block!important;
+  width:220px!important;
+  height:220px!important;
+  max-width:none!important;
+  left:0!important;
+  top:-72px!important;
+  object-fit:fill!important;
+  object-position:center!important;
+  opacity:1!important;
+  visibility:visible!important;
+}
+@media(max-width:700px){
+  .site-footer .footer-brand{width:210px!important;height:72px!important}
+  .site-footer .footer-brand img{width:210px!important;height:210px!important;top:-69px!important}
+}
