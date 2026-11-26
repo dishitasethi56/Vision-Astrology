@@ -85,3 +85,15 @@
  .hero{min-height:600px;background-position:55% center}
  .about{grid-template-columns:1fr}
 }
+
+
+/* Header brand mark: enlarge the artwork and crop its transparent canvas. */
+.site-header{height:124px}
+.site-header .brand{width:340px!important;height:112px!important;overflow:hidden!important}
+.site-header .brand img{width:340px!important;height:112px!important;max-width:none!important;object-fit:cover!important;object-position:center 30%!important}
+@media(max-width:700px){
+  .site-header{height:96px}
+  .site-header .brand{width:260px!important;height:88px!important}
+  .site-header .brand img{width:260px!important;height:88px!important;object-position:center 30%!important}
+  .main-nav{top:95px}
+}
