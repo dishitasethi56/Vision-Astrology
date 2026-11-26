@@ -184,3 +184,52 @@
   .site-footer .footer-brand{width:210px!important;height:72px!important}
   .site-footer .footer-brand img{width:323px!important;height:323px!important;left:-25px!important;top:-117px!important}
 }
+
+
+/* Final logo layout: use the newly cropped, wide VISION artwork without square-canvas cropping. */
+.site-header .brand{
+  position:static!important;
+  display:flex!important;
+  align-items:center!important;
+  width:360px!important;
+  height:auto!important;
+  max-height:135px!important;
+  overflow:visible!important;
+  flex:0 0 auto!important;
+}
+.site-header .brand img{
+  position:static!important;
+  display:block!important;
+  width:100%!important;
+  height:auto!important;
+  max-width:100%!important;
+  max-height:135px!important;
+  object-fit:contain!important;
+  object-position:center!important;
+}
+.site-footer .footer-brand{
+  position:static!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:220px!important;
+  height:auto!important;
+  max-height:none!important;
+  overflow:visible!important;
+  vertical-align:middle!important;
+}
+.site-footer .footer-brand img{
+  position:static!important;
+  display:block!important;
+  width:100%!important;
+  height:auto!important;
+  max-width:100%!important;
+  max-height:none!important;
+  object-fit:contain!important;
+  object-position:center!important;
+}
+@media(max-width:700px){
+  .site-header .brand{width:250px!important;max-height:94px!important}
+  .site-header .brand img{max-height:94px!important}
+  .site-footer .footer-brand{width:210px!important}
+}
