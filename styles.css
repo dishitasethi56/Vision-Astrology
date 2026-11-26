@@ -123,7 +123,9 @@
 .main-nav .nav-cta span{margin-left:0!important}
 
 
-/* Use the supplied VISION logo in the footer at a restrained size. */
-.site-footer .footer-brand{display:inline-flex!important;align-items:center;justify-content:center;width:170px!important;height:58px!important;overflow:visible!important;vertical-align:middle}
+
+
+/* Match the footer logo's visual footprint to the original VISION wordmark. */
+.site-footer .footer-brand{display:inline-flex!important;align-items:center;justify-content:center;width:220px!important;height:76px!important;overflow:visible!important;vertical-align:middle}
 .site-footer .footer-brand img{display:block!important;width:100%!important;height:100%!important;max-width:100%;object-fit:contain!important;object-position:center!important;filter:none!important}
-@media(max-width:700px){.site-footer .footer-brand{width:150px!important;height:52px!important}}
+@media(max-width:700px){.site-footer .footer-brand{width:210px!important;height:72px!important}}
